@@ -35,7 +35,7 @@ class Stack {
         }
     }
     node<E> top;
-
+    final E None;
     Stack(E none) {
         this.top = null;
         this.Nonde = none
